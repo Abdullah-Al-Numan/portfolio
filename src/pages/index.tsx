@@ -47,14 +47,6 @@ export default function Home() {
           },
         ]}
       />
-      <Head>
-        {siteMetadata.googleSiteVerification && (
-          <meta
-            name="google-site-verification"
-            content={siteMetadata.googleSiteVerification}
-          />
-        )}
-      </Head>
       <About />
       <Skills />
       <ShowCaseList title="Experience" details={EXPERIENCE} />
