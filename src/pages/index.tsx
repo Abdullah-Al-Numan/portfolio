@@ -26,10 +26,10 @@ export default function Home() {
           url: siteMetadata.siteUrl,
           title: "Abdullah Al Numan - Full Stack Developer Portfolio",
           description:
-            "Dive into the world of web development with Abdullah Al Numan. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Abdullah Al Numan. Discover a Full Stack Developer with 1 years plus of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+              url: `${siteMetadata.siteUrl}${siteMetadata.image}`,
               alt: "Abdullah Al Numan - Portfolio Image",
             },
           ],
@@ -48,12 +48,15 @@ export default function Home() {
         ]}
       />
       <Head>
-        {siteMetadata.googleSiteVerification && (
-          <meta
-            name="google-site-verification"
-            content={siteMetadata.googleSiteVerification}
-          />
-        )}
+        <title>Abdullah Al Numan | Full Stack Developer</title>
+        <meta name="description" content="Explore the professional portfolio of Abdullah Al Numan, a skilled Full Stack  Developer with 1 years plus of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences." />
+        <meta property="og:title" content="Abdullah Al Numan - Full Stack Developer Portfolio" />
+        <meta property="og:description" content="Dive into the world of web development with Abdullah Al Numan. Discover a Full Stack Developer with 1 years plus of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces." />
+        <meta property="og:image" content={`${siteMetadata.image}`} />
+        <meta property="og:url" content={`${siteMetadata.siteUrl}`} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="keywords" content="React Developer, Next.js Developer, Frontend Developer, Web Developer, JavaScript, TypeScript, HTML, CSS, Portfolio, Express.js, Nest.js, MongoDB, MySQL, Databse, ORM, Mongoose, TypeORM, Sanity.io, Frontend Development, Backend Development, Web Development, Typescript Developer, Responsive Design" />
       </Head>
       <About />
       <Skills />
