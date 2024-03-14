@@ -1,7 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import { PROJECTS_CARD } from '@/data/projects'
-import { siteMetadata } from '@/data/siteMetaData.mjs'
 
 const Project = () => {
     return (

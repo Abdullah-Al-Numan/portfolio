@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Corosel from "@/components/Corosel";
 import { FiExternalLink } from "react-icons/fi";
-import { GithubIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
 
 export type ProjectCardProps = {

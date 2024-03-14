@@ -10,9 +10,11 @@ export const siteMetadata = {
   siteRepo: "https://github.com/Abdullah-Al-Numan/portfolio.git",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
+  twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
   email: "abdullahalnuman66@gmail.com",
   github: "https://github.com/Abdullah-Al-Numan",
   linkedin: "https://www.linkedin.com/in/numan18/",
   locale: "en-US",
+  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };
