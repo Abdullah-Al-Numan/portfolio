@@ -47,6 +47,9 @@ export default function Home() {
           },
         ]}
       />
+      <Head>
+      <meta name="google-site-verification" content="1HmVLHpYhrIILGM5zokg1pmC8c1IimFtRCELDLZauKI" />
+      </Head>
       <About />
       <Skills />
       <ShowCaseList title="Experience" details={EXPERIENCE} />
