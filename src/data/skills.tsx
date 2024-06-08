@@ -107,6 +107,14 @@ export const LIBRARY_FRAMEWORK: SkillPillProps[] = [
     ),
   },
   {
+    name: "React Native",
+    icon: (
+      <span className="relative h-5 w-5 sm:h-8 sm:w-8">
+        <Image alt="reactjs logo" src="/icons/reactjs.svg" fill />
+      </span>
+    ),
+  },
+  {
     name: "Nextjs",
     icon: <SiNextdotjs className="h-5 w-5 sm:h-8 sm:w-8" />,
   },
